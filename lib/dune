@@ -1,6 +1,7 @@
 (library
  (name ocaml_prism)
  (public_name ocaml_prism)
+ (preprocess (pps ppx_deriving.show))
  (js_of_ocaml
   (javascript_files ../includes/bundle.js))
  (libraries brr js_of_ocaml))
