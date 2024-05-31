@@ -1,3 +1,6 @@
 (library
+ (name ocaml_prism)
  (public_name ocaml_prism)
- (name ocaml_prism))
+ (js_of_ocaml
+  (javascript_files ../includes/bundle.js))
+ (libraries brr js_of_ocaml))

@@ -1,0 +1,5 @@
+(executable
+ (name prism_test)
+ (modes js)
+  (libraries ocaml_prism)
+ (promote (until-clean)))
